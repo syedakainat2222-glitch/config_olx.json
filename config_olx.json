@@ -1,0 +1,5 @@
+{
+  "status": "active",
+  "message": "⚠️ OLX website updated. We are syncing new selectors now!",
+  "selectors": { "title": "h1", "price": "span[aria-label='Price']" }
+}
