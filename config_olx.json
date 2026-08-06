@@ -1,5 +1,8 @@
 {
   "status": "active",
   "message": "⚠️ OLX website updated. We are syncing new selectors now!",
-  "selectors": { "title": "h1", "price": "span[aria-label='Price']" }
+  "selectors": {
+    "search": { "item": "li[aria-label='Listing']", "title": "div[aria-label='Title']" },
+    "product": { "title": "h1", "price": "span[aria-label='Price']" }
+  }
 }
