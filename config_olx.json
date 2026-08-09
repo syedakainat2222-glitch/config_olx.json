@@ -14,7 +14,7 @@
         "div[aria-label='Title']",
         "._0cf3b4e5",
         "._846382da",
-        ""._70a3faba",
+        "._70a3faba",
         "h2",
         "h3",
         "a[title]",
@@ -27,7 +27,9 @@
         "[data-testid='ad-price']",
         "span._95eae7db"
       ],
-      "link": ["a"],
+      "link": [
+        "a"
+      ],
       "specs": [
         "div[aria-label='Subtitle']",
         "div[aria-label*='Subtitle']",
