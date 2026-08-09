@@ -1,8 +1,139 @@
 {
   "status": "active",
-  "message": "⚠️ OLX website updated. We are syncing new selectors now!",
+  "message": "⚠️ OLX website update detected. We are syncing new selectors now!",
   "selectors": {
-    "search": { "item": "li[aria-label='Listing']", "title": "div[aria-label='Title']" },
-    "product": { "title": "h1", "price": "span[aria-label='Price']" }
+    "search": {
+      "item": [
+        "li[aria-label='Listing']",
+        "article._617daaaa",
+        "div[data-cy='l-card']",
+        "div._1075545d",
+        "div._41d25988"
+      ],
+      "title": [
+        "div[aria-label='Title']",
+        "._0cf3b4e5",
+        "._846382da",
+        ""._70a3faba",
+        "h2",
+        "h3",
+        "a[title]",
+        "span._2be1311a"
+      ],
+      "price": [
+        "div[aria-label='Price']",
+        "._1356a7a3",
+        "span._24469da7",
+        "[data-testid='ad-price']",
+        "span._95eae7db"
+      ],
+      "link": ["a"],
+      "specs": [
+        "div[aria-label='Subtitle']",
+        "div[aria-label*='Subtitle']",
+        "[data-testid='subtitle']",
+        "._3ec085ef",
+        ".a1f54c1c",
+        ".a1f54c16",
+        "span._2e82a662"
+      ],
+      "location": [
+        "span[aria-label='Location']",
+        "[data-testid='location-date']",
+        "._84e3e6ce",
+        "span._2e28a695"
+      ],
+      "image": [
+        "img",
+        "picture img",
+        "[data-testid='main-image']",
+        "img._35718fae"
+      ],
+      "callBtnContainer": "div[aria-label='Call']",
+      "callBtn": "button",
+      "revealedPhone": [
+        "span[aria-label='Listing phone number']",
+        "._511f6edc",
+        "a[href^='tel:']"
+      ],
+      "modalPhone": [
+        "span[aria-label='Listing phone number']",
+        "._511f6edc"
+      ],
+      "seller": [
+        "span._3681e431",
+        "div[aria-label='Seller name']",
+        "span._029b19b8 + span",
+        "span._26d54d89"
+      ],
+      "modalClose": [
+        "button[aria-label='Close']",
+        "._83e2c5d6",
+        "svg[data-aut-id='icon']",
+        "svg._83e2c5d6"
+      ]
+    },
+    "product": {
+      "title": [
+        "h1.heading_h1__0cOM_",
+        "h1._75bce902",
+        "h1[data-cy='ad_title']",
+        "h1"
+      ],
+      "price": [
+        "span[class='']:not([aria-label])",
+        "span[aria-label='Price']",
+        "span._24469da7",
+        "div[aria-label='Price']",
+        "h3"
+      ],
+      "description": [
+        "div.overview_overview__6c9PL",
+        "div[aria-label='Description']",
+        "div[data-cy='ad_description']",
+        "._7a99ad24"
+      ],
+      "seller": [
+        "h4.heading_h4__5JyUJ",
+        "span.a1c1940e",
+        "div[aria-label='Seller info'] span.a1c1940e"
+      ],
+      "location": [
+        "span[aria-label*='Location']",
+        "._2232d596",
+        ".e3f40953",
+        "div._948d9e0a._371e9918"
+      ],
+      "images": [
+        "div[aria-label='Gallery'] img",
+        "img[data-testid='main-image']",
+        "div.image-gallery img"
+      ],
+      "overviewItems": [
+        "div._948d9e0a._95d4067f",
+        "div[aria-label='Overview'] > div"
+      ],
+      "specList": [
+        "dl.specifications-table_gridTable__eVRD_ > div",
+        "div[aria-label='Details'] ._90eadc7c",
+        "div[aria-label='Details'] > div > div"
+      ],
+      "variantGroup": [
+        "div.mb-8.spbwx-8.flex",
+        "div[class*='flex'][class*='mb-8']",
+        "div.group_grid___9nY5 > div > div"
+      ],
+      "phoneRevealed": [
+        "span._76bf0655",
+        "span._30de236c span",
+        "span._511f6edc",
+        "span[aria-label='Listing phone number']"
+      ],
+      "phoneBtn": [
+        "button._95e95b19",
+        "button[aria-label*='phone']",
+        "div[aria-label='Call'] button"
+      ]
+    }
   }
 }
