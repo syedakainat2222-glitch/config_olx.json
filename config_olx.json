@@ -7,27 +7,39 @@
         "li[aria-label='Listing']",
         "article._617daaaa",
         "div[data-cy='l-card']",
-        "div._1075545d",
-        "div._41d25988"
+        "li._1aad128c > li"
       ],
       "title": [
+        "div[aria-label='Title'] h2",
         "div[aria-label='Title']",
+        "._0cf3b4e5 h2",
         "._0cf3b4e5",
-        "._846382da",
-        "._70a3faba",
+        "h2._1093b649",
         "h2",
         "h3",
-        "a[title]",
-        "span._2be1311a"
+        "a[title]"
       ],
       "price": [
+        "div[aria-label='Price'] span.f83175ac",
+        "div[aria-label='Price'] span.cb7e1f7d",
         "div[aria-label='Price']",
+        "._1356a7a3 span",
         "._1356a7a3",
-        "span._24469da7",
-        "[data-testid='ad-price']",
-        "span._95eae7db"
+        "span.f83175ac",
+        "span.cb7e1f7d",
+        "[data-testid='ad-price']"
+      ],
+      "originalPrice": [
+        "div[aria-label='Price'] span.b9c8db21",
+        "span.b9c8db21"
+      ],
+      "discountPercent": [
+        "div[aria-label='Price'] span._80940ca7",
+        "span._80940ca7"
       ],
       "link": [
+        "a[href^='/item/']",
+        "a[href*='/item/']",
         "a"
       ],
       "specs": [
@@ -35,106 +47,226 @@
         "div[aria-label*='Subtitle']",
         "[data-testid='subtitle']",
         "._3ec085ef",
-        ".a1f54c1c",
         ".a1f54c16",
         "span._2e82a662"
       ],
       "location": [
         "span[aria-label='Location']",
-        "[data-testid='location-date']",
+        "span.f047db22",
+        "._84e3e6ce span[aria-label='Location']",
         "._84e3e6ce",
+        "[data-testid='location-date']",
         "span._2e28a695"
       ],
-      "image": [
-        "img",
-        "picture img",
-        "[data-testid='main-image']",
-        "img._35718fae"
+      "date": [
+        "span[aria-label='Creation date']",
+        "._84e3e6ce span.aa13b760 span",
+        "span.aa13b760 span",
+        "span._19b2b172 span"
       ],
-      "callBtnContainer": "div[aria-label='Call']",
-      "callBtn": "button",
+      "image": [
+        "img.f79152f1",
+        "picture img.f79152f1",
+        "picture img",
+        "img[aria-label='Cover photo']",
+        "[data-testid='main-image']",
+        "img"
+      ],
+      "featured": [
+        "span[aria-label='Featured']",
+        "div._42fb40f0 span"
+      ],
+      "delivery": [
+        "span[aria-label='Delivery']",
+        "div.e1bf548e span"
+      ],
+      "callBtnContainer": [
+        "div[aria-label='Call']",
+        "div._9202fca7[aria-label='Call']"
+      ],
+      "callBtn": [
+        "div[aria-label='Call'] button",
+        "button._91e21052._4893aaa7"
+      ],
+      "chatBtn": [
+        "div[aria-label='Chat'] button",
+        "span[aria-label='Chat'] button"
+      ],
       "revealedPhone": [
         "span[aria-label='Listing phone number']",
-        "._511f6edc",
-        "a[href^='tel:']"
+        "a[href^='tel:']",
+        "span._511f6edc"
       ],
       "modalPhone": [
         "span[aria-label='Listing phone number']",
-        "._511f6edc"
+        "span._511f6edc",
+        "a[href^='tel:']"
+      ],
+      "modalClose": [
+        "button[aria-label='Close']",
+        "button[aria-label='close']",
+        "._83e2c5d6",
+        "svg[data-aut-id='icon']"
       ],
       "seller": [
         "span._3681e431",
         "div[aria-label='Seller name']",
         "span._029b19b8 + span",
         "span._26d54d89"
-      ],
-      "modalClose": [
-        "button[aria-label='Close']",
-        "._83e2c5d6",
-        "svg[data-aut-id='icon']",
-        "svg._83e2c5d6"
       ]
     },
+
     "product": {
       "title": [
-        "h1.heading_h1__0cOM_",
         "h1._75bce902",
+        "h1.heading_h1__0cOM_",
         "h1[data-cy='ad_title']",
         "h1"
       ],
       "price": [
-        "span[class='']:not([aria-label])",
+        "span._24469da7[aria-label='Price']",
         "span[aria-label='Price']",
         "span._24469da7",
         "div[aria-label='Price']",
         "h3"
       ],
+      "originalPrice": [
+        "span.b9c8db21",
+        "span[aria-label='Original price']"
+      ],
+      "discountPercent": [
+        "span._80940ca7"
+      ],
       "description": [
-        "div.overview_overview__6c9PL",
+        "div[aria-label='Description'] ._7a99ad24",
         "div[aria-label='Description']",
+        "div.overview_overview__6c9PL",
         "div[data-cy='ad_description']",
         "._7a99ad24"
       ],
       "seller": [
+        "div[aria-label='Seller description'] span.a1c1940e.b7af14b4",
+        "div[aria-label='Seller description'] span.a1c1940e",
+        "a[href^='/profile/'] span.a1c1940e",
+        "div[aria-label='Seller info'] span.a1c1940e",
         "h4.heading_h4__5JyUJ",
-        "span.a1c1940e",
-        "div[aria-label='Seller info'] span.a1c1940e"
+        "span.a1c1940e"
+      ],
+      "sellerProfile": [
+        "div[aria-label='Seller description'] a[href^='/profile/']",
+        "a[href^='/profile/']"
+      ],
+      "memberSince": [
+        "div[aria-label='Seller description'] div._0272c9dc > div:first-child span.a1c1940e.b7af14b4",
+        "div[aria-label='Seller description'] span.a1c1940e.b7af14b4"
+      ],
+      "activeAds": [
+        "div[aria-label='Seller description'] div._0272c9dc > div:last-child span.a1c1940e.b7af14b4"
       ],
       "location": [
+        "span[aria-label='Location']",
         "span[aria-label*='Location']",
         "._2232d596",
         ".e3f40953",
         "div._948d9e0a._371e9918"
       ],
+      "date": [
+        "span[aria-label='Creation date']",
+        "div.fd770a7e span.aa13b760 span",
+        "span.aa13b760 span"
+      ],
       "images": [
+        "div[aria-label='Gallery'] img._66938426",
         "div[aria-label='Gallery'] img",
-        "img[data-testid='main-image']",
-        "div.image-gallery img"
+        "div.image-gallery img",
+        "img[data-testid='main-image']"
+      ],
+      "mainImage": [
+        "div[aria-label='Gallery'] div.image-gallery-slide.center img._66938426",
+        "div[aria-label='Gallery'] img._66938426",
+        "div[aria-label='Gallery'] img"
       ],
       "overviewItems": [
-        "div._948d9e0a._95d4067f",
-        "div[aria-label='Overview'] > div"
+        "div[aria-label='Overview'] div._71aa86fe",
+        "div[aria-label='Overview'] > div",
+        "div._948d9e0a._95d4067f"
+      ],
+      "overviewLabels": [
+        "div[aria-label='Overview'] span._4b3efad3"
+      ],
+      "overviewValues": [
+        "div[aria-label='Overview'] span._1098edef"
       ],
       "specList": [
-        "dl.specifications-table_gridTable__eVRD_ > div",
         "div[aria-label='Details'] ._90eadc7c",
+        "._90eadc7c",
+        "dl.specifications-table_gridTable__eVRD_ > div",
         "div[aria-label='Details'] > div > div"
       ],
+      "specLabels": [
+        "div[aria-label='Details'] ._90eadc7c > div > span:first-child",
+        "._90eadc7c > div > span:first-child"
+      ],
+      "specValues": [
+        "div[aria-label='Details'] ._90eadc7c span._4ad4c394",
+        "._90eadc7c span._4ad4c394",
+        "._90eadc7c > div > span:last-child"
+      ],
+      "features": [
+        "div[aria-label='Features'] div.ee08ff9c span",
+        "div[aria-label='Features'] span.f53d37b9",
+        "div[aria-label='Features']"
+      ],
       "variantGroup": [
-        "div.mb-8.spbwx-8.flex",
-        "div[class*='flex'][class*='mb-8']",
-        "div.group_grid___9nY5 > div > div"
+        "div[aria-label='Overview'] div[aria-label='Variant']",
+        "div[class*='variant']"
+      ],
+      "adId": [
+        "div._114d5a00",
+        "div:has(> span) div._114d5a00"
+      ],
+      "breadcrumbs": [
+        "ul._113fa880 li[itemprop='itemListElement'] a",
+        "div[aria-label='Breadcrumb'] a"
       ],
       "phoneRevealed": [
-        "span._76bf0655",
-        "span._30de236c span",
-        "span._511f6edc",
-        "span[aria-label='Listing phone number']"
+        "span[aria-label='Listing phone number']",
+        "a[href^='tel:']",
+        "span._511f6edc"
       ],
       "phoneBtn": [
-        "button._95e95b19",
+        "div[aria-label='Call'] button",
         "button[aria-label*='phone']",
-        "div[aria-label='Call'] button"
+        "button._95e95b19"
+      ],
+      "chatBtn": [
+        "div[aria-label='Chat'] button",
+        "span[aria-label='Chat'] button",
+        "button._91e21052._4893aaa7"
+      ],
+      "hasCall": [
+        "div[aria-label='Call']"
+      ],
+      "whatsappShare": [
+        "a[href^='https://wa.me/']",
+        "a[href*='wa.me']"
+      ],
+      "facebookShare": [
+        "a[href*='facebook.com/sharer']"
+      ],
+      "twitterShare": [
+        "a[href*='twitter.com/intent']"
+      ],
+      "emailShare": [
+        "a[href^='mailto:']"
+      ],
+      "canonical": [
+        "link[rel='canonical']",
+        "meta[property='og:url']"
+      ],
+      "rating": [
+        "span[aria-label='Rating']",
+        "div[aria-label='Seller rating']"
       ]
     }
   }
