@@ -1,6 +1,7 @@
 {
   "status": "active",
   "message": "⚠️ OLX website update detected. We are syncing new selectors now!",
+
   "selectors": {
     "search": {
       "item": [
@@ -218,8 +219,7 @@
         "div[aria-label='Features']"
       ],
       "variantGroup": [
-        "div[aria-label='Overview'] div[aria-label='Variant']",
-        "div[class*='variant']"
+        "div[aria-label='Overview'] div[aria-label='Variant']"
       ],
       "adId": [
         "div._114d5a00",
@@ -268,6 +268,87 @@
         "span[aria-label='Rating']",
         "div[aria-label='Seller rating']"
       ]
+    }
+  },
+
+  "logic": {
+    "phoneButtonText": [
+      "show phone",
+      "phone number",
+      "show number",
+      "reveal contact",
+      "view number",
+      "call seller",
+      "contact seller"
+    ],
+
+    "phoneRevealRegex": "show\\s*phone|phone\\s*number|call\\s*seller|reveal\\s*contact|view\\s*number",
+
+    "adIdRegex": "(\\d{6,})",
+
+    "adIdPrefixRegex": "^Ad\\s*ID[:\\s]*",
+
+    "phoneFallbackRegex": "(\\+?\\d[\\d\\s\\-()]{8,}\\d)",
+
+    "priceLikeRegex": "^Rs\\s|^\\$|^€|^₹|^\\d+(\\.\\d+)?\\s*(Lac|Crore|Lakh|K)$",
+
+    "junkSpecBlacklist": [
+      "featured",
+      "motors",
+      "property",
+      "sponsored",
+      "verified",
+      "home",
+      "sell",
+      "login",
+      "chat",
+      "call",
+      "report",
+      "ad id",
+      "views",
+      "posted",
+      "posted by",
+      "highlight"
+    ],
+
+    "variantBlacklist": [
+      "featured",
+      "motors",
+      "property",
+      "sponsored",
+      "verified",
+      "home",
+      "sell",
+      "login",
+      "chat",
+      "call",
+      "report",
+      "ad id",
+      "views",
+      "posted",
+      "posted by",
+      "highlight"
+    ],
+
+    "maxSpecKeyLength": 40,
+    "maxSpecValueLength": 200,
+    "maxVariantLabelLength": 30,
+    "maxVariantValueLength": 100,
+    "maxPhoneLength": 25,
+
+    "loadMoreButtonText": [
+      "load more",
+      "see more"
+    ],
+
+    "viewMoreButtonText": [
+      "view more",
+      "view all"
+    ],
+
+    "pageTypePatterns": {
+      "single_product": ["/ad/", "/item/"],
+      "search_results": ["/q-", "/search/", "?q=", "/items", "/items/", "_c", "_g"]
     }
   }
 }
