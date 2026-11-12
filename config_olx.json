@@ -189,7 +189,8 @@
       ],
       "overviewItems": [
         "div[aria-label='Overview'] div._71aa86fe",
-        "div[aria-label='Overview'] > div"
+        "div[aria-label='Overview'] > div",
+        "div._948d9e0a._95d4067f"
       ],
       "overviewLabels": [
         "div[aria-label='Overview'] span._4b3efad3"
